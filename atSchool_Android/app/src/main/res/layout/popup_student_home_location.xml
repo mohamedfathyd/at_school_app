@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+            <Button
+                android:background="@color/colorPrimaryLight"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center|center_vertical"
+                android:id="@+id/btn_savelocation"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:text="@string/save_location"
+                android:textColor="@android:color/white" />
+
+
+
+            <Button
+                android:background="@color/colorPrimaryLight"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:gravity="center|center_vertical"
+                android:id="@+id/btn_Currentlocation"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:text="@string/current_location"
+                android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:visibility="gone" />
+
+        <fragment
+            android:id="@+id/map1"
+
+            class ="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

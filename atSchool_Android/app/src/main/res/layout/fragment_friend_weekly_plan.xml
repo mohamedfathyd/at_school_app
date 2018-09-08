@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:clipToPadding="false"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/m_news_events" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="false">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+
+                    style="@style/RippleStyleWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary">
+
+                    <Button
+
+                        android:id="@+id/btn_ViewWeek"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector"
+                        android:bottomLeftRadius="10dp"
+                        android:bottomRightRadius="10dp"
+                        android:text="@string/view_weeks"
+                        android:textColor="@android:color/white" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="false">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+
+                    style="@style/RippleStyleWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary">
+
+                    <Button
+
+                        android:id="@+id/btn_ViewDays"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector"
+                        android:bottomLeftRadius="10dp"
+                        android:bottomRightRadius="10dp"
+                        android:text="@string/view_days"
+                        android:textColor="@android:color/white" />
+                </com.balysv.materialripple.MaterialRippleLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/login_background"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="false"
+                    android:visibility="gone" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:cacheColorHint="#0000"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:scrollbars="none"
+                    android:scrollingCache="false" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_small"
+                    android:background="@drawable/toolbar_gradient" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

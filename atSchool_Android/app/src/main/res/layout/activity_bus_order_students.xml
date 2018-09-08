@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="top">
+
+        <LinearLayout
+            android:gravity="top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/btn_start_trip"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorPrimary"
+                android:bottomLeftRadius="30dp"
+                android:bottomRightRadius="30dp"
+                android:text="@string/Start_Trip"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/btn_end_trip"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorRed"
+                android:bottomLeftRadius="30dp"
+                android:bottomRightRadius="30dp"
+                android:text="@string/end_Trip"
+                android:textColor="@android:color/white" />
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey_bg"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:listSelector="#00000000"
+                android:transcriptMode="normal">
+
+            </ListView>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="false"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="empty list"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

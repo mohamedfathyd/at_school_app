@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.atschoolPioneerSchool.activity_insert_complaint">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/txtPercentage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textSize="30dp"
+
+                        android:visibility="gone" />
+
+                    <!-- Videoview to preview recorded video -->
+
+
+                    <VideoView
+                        android:id="@+id/videoPreview"
+                        android:layout_width="fill_parent"
+                        android:layout_height="400dp"
+                        android:layout_marginTop="0dp"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/imgPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/noimage" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:indeterminate="false"
+                        android:visibility="gone" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/complaint_type" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <ProgressBar
+                        android:id="@+id/progressBar2"
+                        style="?android:attr/progressBarStyleLarge"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerInParent="true"
+                        android:indeterminate="false"
+                         />
+                </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:scrollbars="vertical"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:cardUseCompatPadding="true">
+
+
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spacing_small"
+                    android:background="@drawable/toolbar_gradient" />
+
+                <EditText
+                    android:id="@+id/txtcomplaint"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:ems="10"
+                    android:maxLength="700"
+                    android:hint="@string/type_your_complaint_here"
+                    android:includeFontPadding="false"
+                    android:inputType="textMultiLine"
+                    android:scrollbars="vertical" />
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

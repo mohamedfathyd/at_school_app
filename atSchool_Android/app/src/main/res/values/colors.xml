@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#112249</color>
+    <color name="colorPrimaryDark">#07132d</color>
+    <color name="colorPrimaryLight">#142e63</color>
+
+    <color name="colorAccent">#E64A19</color>
+    <color name="colorAccentLight">#F4511E</color>
+    <color name="colorRed">#F44336</color>
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#F5F5F5</color>
+    <color name="grey_dark">#37474F</color>
+
+    <color name="grey_bg">#E6E6E6</color>
+    <color name="grey_text">#222D31</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <color name="darkOverlaySoft">#40000000</color>
+    <color name="me_chat_bg">#FFE0B2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#6eec87</color>
+    <color name="dark_blue">#30336b</color>
+    <color name="white_green">#3867d6</color>
+    <color name="white_red">#f52b5e</color>
+
+
+    <!--  2
+
+    <color name="colorPrimary">#EC407A</color>
+    <color name="colorPrimaryDark">#e91e54</color>
+    <color name="colorPrimaryLight">#F06292</color>
+
+    <color name="colorAccent">#EC407A</color>
+    <color name="colorAccentDark">#e91e54</color>
+    <color name="colorAccentLight">#F06292</color>
+    <color name="colorRed">#F44336</color>
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#F5F5F5</color>
+
+    <color name="grey_bg">#E6E6E6</color>
+    <color name="grey_text">#222D31</color>
+    <color name="tab_indicator_color">#FFFFFF</color>
+    -->
+
+
+
+
+    <!--  1
+
+    <color name="colorPrimary">#89C443</color>
+    <color name="colorPrimaryDark">#558B2F</color>
+    <color name="colorPrimaryLight">#9ECC66</color>
+
+    <color name="colorAccent">#89C443</color>
+    <color name="colorAccentDark">#7AB439</color>
+    <color name="colorAccentLight">#9ECC66</color>
+    <color name="colorRed">#F44336</color>
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#F5F5F5</color>
+
+    <color name="grey_bg">#E6E6E6</color>
+    <color name="grey_text">#222D31</color>
+    <color name="tab_indicator_color">#FFFFFF</color>-->
+</resources>

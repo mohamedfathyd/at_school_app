@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">North City School</string>
+    <string name="slogan">أنس الظاهر ولي أمر</string>
+    <string name="Others">اخرى</string>
+
+    <string name="about_text">في المدرسه التطبيق الذكي للتواصل الدائم
+       مع ابنائك في المدرسه
+        \n\n \n<a href="www.pexels.com">www.atSchool.com</a>
+
+        \n V 1.23
+    </string>
+
+    <!--string drawer menu-->
+
+    <string name="menu_Main">في المدرسه</string>
+    <string name="menu_watches">ساعات</string>
+
+    <string name="drawer_open">فتح</string>
+    <string name="drawer_close">اغلاق</string>
+
+    <!--exit notification-->
+
+
+    <!--string atschool drawer menu-->
+    <string name="menu_Activities"> النشاطات</string>
+    <string name="menu_Agenda">خطة الأسابيع الدراسيه </string>
+    <string name="menu_SchoolManagement"> الإداره</string>
+    <string name="menu_Suggestion"> إقتراح</string>
+    <string name="menu_Complaint"> شكوى</string>
+
+    <string name="menu_SchoolFacilities"> مرافق المدرسه</string>
+    <string name="menu_NewComplaint">شكوى جديده</string>
+    <string name="menu_NewSuggestion">إقتراح جديد</string>
+    <string name="menu_NewMaintenance">طلب صيانه جديد</string>
+    <string name="menu_Settings"> الإعدادات</string>
+    <string name="menu_Aboutus">عن المدرسه </string>
+    <string name="menu_Logout">خروج </string>
+    <string name="menu_News">الأخبار </string>
+    <string name="menu_Communication">التواصل </string>
+    <string name="menu_Call_your_Sons"> إستدعاء الأبناء </string>
+    <string name="activity_Bus_Order_Students">Students</string>
+    <string name="menu_BussesTrip">جولات الباصات</string>
+
+    <string name="menu_RegisterStudentsAttendance">تسجيل حضور الطلاب </string>
+    <string name="menu_BusLocation">موقع الباص</string>
+    <string name="menu_marefah">معرفه</string>
+
+    <string name="menu_Vision">الرؤيه</string>
+    <string name="menu_Mission">الرساله</string>
+
+    <string name="menu_HomeLocation">موقع البيت</string>
+    <string name="menu_SchoolLocation">موقعنا</string>
+
+    <string name="hint_email">إسم المستخدم</string>
+    <string name="hint_password">كلمه السر</string>
+    <string name="hint_country">الدوله</string>
+    <string name="hint_city">المدينه</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="err_msg_email"> ادخل إسم المستخدم</string>
+    <string name="err_msg_password">ادخل كلمه السر</string>
+    <string name="err_msg_country">ادخل الدوله</string>
+    <string name="err_msg_city">ادخل المدينه</string>
+    <string name="inv_msg_password">أقل من 3</string>
+    <string name="hint_name">اسم المستخدم</string>
+    <string name="btn_sign_up">سجل</string>
+    <string name="err_msg_name">الإسم كامل</string>
+    <string name="strRememberme">تذكرني</string>
+
+    <string name="Start_Trip">بدأ الجولة</string>
+    <string name="msgInternetNotAvailable">غير متصل بالانترنت</string>
+    <string name="msgNoData">لايوجد بيانات</string>
+    <string name="Web_URL">http://eis.lms-school.com/API_Mobile.aspx?</string>
+    <string name="URL_News_Images">http://irbid.lms-school.com/ImagesPortal/InformationImages/</string>
+    <string name="URL_Complaint_Images">http://irbid.lms-school.com/ImagesPortal/ComplaintImages/</string>
+    <string name="URL_Suggestion_Images">http://irbid.lms-school.com/ImagesPortal/SuggestionImages/</string>
+    <string name="URL_Maintenance_Images">http://irbid.lms-school.com/ImagesPortal/MaintenanceImages/</string>
+    <string name="URL_ChatUploads_Images">http://irbid.lms-school.com/ImagesChat/</string>
+    <string name="URL_Chat_Images">http://irbid.lms-school.com/ImagesPortal/AccountInfoImages/</string>
+    <string name="URL_Account_Profile_Images">http://irbid.lms-school.com/ImagesPortal/AccountInfoImages/</string>
+    <string name="URL_Gallery_Images">http://atschool.kkischools.sti/ImagesPortal/ImagesGallery/</string>
+    <string name="URL_Weekly_Plan">http://irbid.lms-school.com/ImagesPortal/uploads/</string>
+    <string name="URL_Marefah_Book_Images">http://m3refah.net/ImagesLMS/ImagesSubject/</string>
+    <string name="URL_Marefah_Book_Video">http://m3refah.net/ImagesLMS/LessonVideo/</string>
+    <string name="msgServiceisnotavailable">الخدمه غير متوفره</string>
+    <string name="msgFaildLogin">اسم المستخدم او كلمه السر غير صحيحه</string>
+    <string name="gcm_defaultSenderId">435872468477</string>
+    <string name="OK">اخفاء</string>
+    <string name="strStatements">كشف حساب</string>
+    <string name="strVouchers"> سندات القبض</string>
+
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="descr_image">الصوره</string>
+    <string name="type_your_complaint_here">  أكتب شكواك هنا </string>
+    <string name="type_your_suggestion_here">  أكتب إقتراحك هنا </string>
+    <string name="complaint_type">نوع الشكوى</string>
+    <string name="suggestion_type">نوع الإقتراح</string>
+    <string name="please_enter_your_complaint">الرجاء إدخال شكواك</string>
+    <string name="please_enter_your_suggestion">الرجاء إدخال إقتراحك</string>
+    <string name="Maintenance_Type">نوع الصيانة</string>
+    <string name="please_enter_your_maintenance">الرجاء إدخال تفاصيل طلب الصيانه</string>
+    <string name="Please_select_type">Please select type</string>
+    <string name="Please_enter_problem_location">الرجاء إدخال موقع المشكلة</string>
+    <string name="High_Priority">  مستعجل  </string>
+    <string name="strCompleted">تم التحميل</string>
+    <string name="title_activity_notification">التنبيهات</string>
+
+    <string name="title_list">List</string>
+    <string name="title_grid">Grid</string>
+
+    <string name="title_activity_school_agenda">activity_school_agenda</string>
+    <string name="title_activity_school_fees">الرسوم</string>
+    <string name="title_activity_insert_complaint">activity_insert_complaint</string>
+    <string name="title_activity_test_upload">ActivityTestUpload</string>
+    <string name="title_activity_test_select_file">ActivityTestSelectFile</string>
+
+    <string name="title_activity_chat_contacts_details">ActivityChatContactsDetails</string>
+    <string name="title_activity_play_video">activity_play_video</string>
+    <string name="activity_select_friend">إختيار إبن</string>
+    <string name="title_activity_school_vouchers">activity_school_vouchers</string>
+
+    <string name="title_activity_school_grades">activity_school_grades</string>
+
+    <string name="title_activity_insert_maintenance">activity_insert_maintenance</string>
+
+    <string name="title_activity_school_evaluation">activity_school_evaluation</string>
+
+    <string name="title_activity_school_offence">activity_school_offence</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+    <string name="ac_name_complex">Complex Example</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    <string name="title_activity_school_statements">activity_school_statements</string>
+    <string name="SchoolActivity"> 123</string>
+    <string name="title_activity_school_activity">activity_school_activity</string>
+    <string name="label_examples">Examples</string>
+    <string name="button_image_list">ListView</string>
+    <string name="button_image_grid">GridView</string>
+    <string name="button_image_pager">ViewPager</string>
+    <string name="button_image_gallery">Gallery</string>
+    <string name="button_list_and_grid" />
+    <string name="Press_to_send_request">اضغط لإرسال النداء</string>
+    <string name="strWeekNumber">  رقم الأسبوع  </string>
+    <string name="title_Weekly_Plan">الخطه الأسبوعيه</string>
+    <string name="School_Notification">تنبيه من المدرسه</string>
+    <string name="btn_download_weekly_plan">تحميل الخطة الأسبوعية</string>
+    <string name="search">بحث</string>
+    <string name="install_Facebook">من فضلك، تثبيت تطبيق الفيسبوك</string>
+    <string name="URL_is_not_defined">الرابط غير معرف من قبل المدرسه</string>
+    <string name="sons_registered">لا يوجد لديك أبناء مسجلين في النظام</string>
+    <string name="step_in"> ركب الباص </string>
+    <string name="step_out">نزل من الباص</string>
+    <string name="absent">غائب</string>
+    <string name="PleaseWait"> أرجو الإنتظار ...</string>
+    <string name="strHome">البيت</string>
+
+    <string name="strPhotosinBus">الصور في الباص</string>
+    <string name="strStepIn">ركب</string>
+    <string name="strStepOut">نزل</string>
+    <string name="save_location">حفظ  الموقع</string>
+    <string name="view_weeks"> عرض الأسابيع  </string>
+    <string name="view_days">  عرض الأيام </string>
+    <string name="end_Trip">نهاية الرحله</string>
+    <string name="not_confirm">غير مؤكد</string>
+    <string name="current_location">الموقع الحالي</string>
+    <string name="Absent_Request">طلب غياب</string>
+    <string name="not_confirm_request">الحضور غير مأكد</string>
+    <string name="register_students_attendance">تسجيل حضور الطلاب</string>
+    <string name="delay">متأخر</string>
+    <string name="undo">تراجع</string>
+    <string name="delayed">تأخر</string>
+    <string name="menu_new">عنصر جديد</string>
+    <string name="menu_shoes">حزاء</string>
+    <string name="menu_accessories">اكسسوارات</string>
+    <string name="menu_bags">حقائب</string>
+    <string name="menu_Maintenance">تصل</string>
+    <string name="start_hello">مرحبا بكم</string>
+    <string name="start_nexttext">في التطبيق الخاص بمدارس التربية الرياضية</string>
+    <string name="start_login">دخول</string>
+    <string name="start_school">عن المدرسة</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>عربي</item>
+        <item>french</item>
+    </string-array>
+</resources>

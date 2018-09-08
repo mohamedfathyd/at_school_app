@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityMain">
+
+
+
+
+
+    <item
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/action_Atschool"
+        android:icon="@drawable/ic_atschool"
+        android:title="@string/app_name"
+        app:actionLayout="@layout/menu_counter"/>
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_credit"
+        android:orderInCategory="100"
+        android:title="Credit"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_New_Complaint"
+        android:orderInCategory="100"
+        android:title="@string/menu_NewComplaint"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_New_Suggestion"
+        android:orderInCategory="100"
+        android:title="@string/menu_NewSuggestion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_New_Maintenance"
+        android:orderInCategory="100"
+        android:title="@string/menu_NewMaintenance"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/menu_Aboutus"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Logout"
+        android:orderInCategory="100"
+        android:title="@string/menu_Logout"
+        android:visible="false"
+        app:showAsAction="never"/>
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_cart"
+        android:orderInCategory="100"
+        android:title="Cart"
+        android:icon="@android:drawable/ic_lock_idle_lock"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_Attendance_not_confirmed"
+        android:title="Attendance not confirmed"/>
+
+
+
+    <item
+        android:id="@+id/item_set_home_location"
+        android:title="Set Home Location"/>
+
+
+
+    <item
+        android:id="@+id/item_Undo"
+        android:title="Undo"/>
+
+
+</menu>

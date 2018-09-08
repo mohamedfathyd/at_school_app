@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical">
+
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                style="@style/RippleStyleWhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <Button
+
+                    android:paddingRight="25dp"
+                    android:paddingLeft="25dp"
+                    android:gravity="center|center_vertical"
+                    android:id="@+id/btn_savelocation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/selector"
+                    android:bottomLeftRadius="10dp"
+                    android:bottomRightRadius="10dp"
+                    android:text="@string/save_location"
+                    android:textColor="@android:color/white" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="false"
+            android:visibility="gone" />
+
+        <fragment
+            android:id="@+id/map1"
+            class ="com.google.android.gms.maps.MapFragment"
+
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"/>
+
+    </LinearLayout>
+
+</FrameLayout>

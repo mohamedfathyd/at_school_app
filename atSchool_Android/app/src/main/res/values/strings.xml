@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">North Nity School</string>
+    <string name="slogan">Anas Aldaher Parent</string>
+    <string name="Others">Others</string>
+
+    <string name="about_text">"at school smart application to be communicated with your kids in school :                                       <a href="www.pexels.com">www.atSchool.com</a>             V 1.23     "</string>
+
+    <!--string drawer menu-->
+    <string name="menu_new">New Items</string>
+    <string name="menu_Main">at School</string>
+    <string name="menu_shoes">Shoes</string>
+    <string name="menu_watches">Watches</string>
+    <string name="menu_accessories">Accessories</string>
+    <string name="menu_bags">Bags</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!--exit notification-->
+
+
+    <!--string atschool drawer menu-->
+    <string name="menu_Activities"> Activities</string>
+    <string name="menu_Agenda">Agenda </string>
+    <string name="menu_SchoolManagement"> School Management</string>
+    <string name="menu_Suggestion"> Suggestion</string>
+    <string name="menu_Complaint"> Complaint</string>
+    <string name="menu_Maintenance"> Maintenance</string>
+    <string name="menu_SchoolFacilities"> School Facilities</string>
+    <string name="menu_NewComplaint">New Complaint</string>
+    <string name="menu_NewSuggestion">New Suggestion</string>
+    <string name="menu_NewMaintenance">New Maintenance Order</string>
+
+    <string name="menu_Settings"> Settings</string>
+    <string name="menu_Aboutus">About us </string>
+    <string name="menu_News">News </string>
+    <string name="menu_Communication">Communication</string>
+    <string name="menu_Call_your_Sons">Call your sons </string>
+    <string name="menu_BussesTrip">Buses Trips </string>
+    <string name="menu_RegisterStudentsAttendance">Register students attendance </string>
+
+    <string name="menu_BusLocation">Buses Location</string>
+    <string name="menu_marefah">M3refah</string>
+
+
+    <string name="strPhotosinBus">Photos in bus</string>
+    <string name="menu_Vision">Vision</string>
+    <string name="menu_Mission">Mission</string>
+    <string name="menu_HomeLocation">Home Location</string>
+    <string name="menu_SchoolLocation">Location</string>
+
+    <string name="hint_email">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_city">City</string>
+    <string name="btn_login">Login</string>
+    <string name="err_msg_email">Enter Username</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="err_msg_country">Enter the country</string>
+    <string name="err_msg_city">Enter the city</string>
+    <string name="inv_msg_password">Less than 3</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="err_msg_name">Full Name</string>
+    <string name="strRememberme">Remember Me</string>
+
+    <string name="msgInternetNotAvailable">Internet is not available</string>
+    <string name="msgNoData">No data</string>
+    <string name="Web_URL">http://eis.lms-school.com/API_Mobile.aspx?</string>
+    <string name="URL_News_Images">http://irbid.lms-school.com/ImagesPortal/InformationImages/</string>
+    <string name="URL_Complaint_Images">http://irbid.lms-school.com/ImagesPortal/ComplaintImages/</string>
+    <string name="URL_Suggestion_Images">http://irbid.lms-school.com/ImagesPortal/SuggestionImages/</string>
+    <string name="URL_Maintenance_Images">http://irbid.lms-school.com/ImagesPortal/MaintenanceImages/</string>
+    <string name="URL_ChatUploads_Images">http://irbid.lms-school.com/ImagesChat/</string>
+    <string name="URL_Chat_Images">http://irbid.lms-school.com/ImagesPortal/AccountInfoImages/</string>
+    <string name="URL_Account_Profile_Images">http://irbid.lms-school.com/ImagesPortal/AccountInfoImages/</string>
+    <string name="URL_Gallery_Images">http://irbid.lms-school.com/ImagesPortal/ImagesGallery/</string>
+    <string name="URL_Weekly_Plan">http://irbid.lms-school.com/ImagesPortal/uploads/</string>
+    <string name="URL_Marefah_Book_Images">http://m3refah.net/ImagesLMS/ImagesSubject/</string>
+    <string name="URL_Marefah_Book_Video">http://m3refah.net/ImagesLMS/LessonVideo/</string>
+
+    <string name="msgServiceisnotavailable">Service is not available</string>
+    <string name="msgFaildLogin">Username or password is not valid</string>zxc
+    <string name="gcm_defaultSenderId">435872468477</string>
+    <string name="OK">OK</string>
+    <string name="title_activity_school_statements">activity_school_statements</string>
+    <string name="strStatements">Account Statement</string>
+    <string name="strVouchers"> Receipt Voucher</string>
+
+    <string name="dummy_button">Dummy Button</string>
+
+    <string name="title_list">List</string>
+    <string name="title_grid">Grid</string>
+    <string name="title_activity_school_activity">activity_school_activity</string>
+
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+    <string name="ac_name_complex">Complex Example</string>
+    <string name="SchoolActivity"> 123</string>
+    <string name="title_activity_school_agenda">activity_school_agenda</string>
+    <string name="title_activity_school_fees">الرسوم</string>
+
+    <string name="title_activity_school_vouchers">activity_school_vouchers</string>
+
+    <string name="title_activity_school_grades">activity_school_grades</string>
+
+
+    <string name="title_activity_school_evaluation">activity_school_evaluation</string>
+
+    <string name="title_activity_school_offence">activity_school_offence</string>
+
+    <string name="activity_Bus_Order_Students">Students</string>
+    <string name="activity_select_friend">إختيار إبن</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_test_upload">ActivityTestUpload</string>
+    <string name="title_activity_test_select_file">ActivityTestSelectFile</string>
+
+    <string name="descr_image">Image</string>
+    <string name="title_activity_insert_complaint">activity_insert_complaint</string>
+    <string name="type_your_complaint_here">  Type your complaint here...</string>
+    <string name="type_your_suggestion_here">  Type your suggestion here...</string>
+    <string name="complaint_type">Complaint Type</string>
+    <string name="suggestion_type">ٍSuggestion Type</string>
+    <string name="please_enter_your_complaint">Please enter your complaint</string>
+    <string name="please_enter_your_suggestion">Please enter your suggestion</string>
+    <string name="Maintenance_Type">Maintenance Type</string>
+    <string name="please_enter_your_maintenance">Please enter your details of maintenance order</string>
+    <string name="title_activity_insert_maintenance">activity_insert_maintenance</string>
+    <string name="Please_select_type">Please select type</string>
+    <string name="Please_enter_problem_location">Please enter problem location</string>
+    <string name="High_Priority">  High Priority  </string>
+    <string name="title_activity_chat_contacts_details">ActivityChatContactsDetails</string>
+    <string name="title_activity_play_video">activity_play_video</string>
+    <string name="strCompleted">Completed</string>
+    <string name="title_activity_notification">Notification</string>
+
+    <string name="title_Weekly_Plan">Weekly Plan</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+
+    <string name="label_examples">Examples</string>
+    <string name="button_image_list">ListView</string>
+    <string name="button_image_grid">GridView</string>
+    <string name="button_image_pager">ViewPager</string>
+    <string name="button_image_gallery">Gallery</string>
+    <string name="button_list_and_grid" />
+    <string name="Press_to_send_request">Press to send request</string>
+    <string name="strWeekNumber">  Week Number  </string>
+    <string name="School_Notification"> Notification from school</string>
+    <string name="btn_download_weekly_plan">Download Weekly Plan</string>
+    <string name="search">Search</string>
+    <string name="install_Facebook">Please, install Facebook application</string>
+    <string name="URL_is_not_defined">URL is not defined</string>
+    <string name="sons_registered">You don\'t have sons registered in system</string>
+    <string name="Start_Trip">Start Trip</string>
+    <string name="step_in">Step In</string>
+    <string name="step_out">Step Out</string>
+    <string name="absent">Absent</string>
+    <string name="PleaseWait">Please Wait ...</string>
+    <string name="strHome">Home</string>
+    <string name="strStepIn">Step In</string>
+    <string name="strStepOut">Step Out</string>
+    <string name="save_location">Save Location</string>
+    <string name="view_weeks">View Weeks</string>
+    <string name="end_Trip">End Trip</string>
+    <string name="not_confirm">NotConfirm</string>
+    <string name="current_location">Current Location</string>
+    <string name="Absent_Request">Absent Request</string>
+    <string name="not_confirm_request">Not Confirm Request</string>
+    <string name="register_students_attendance">Register students attendance</string>
+    <string name="delay">Delay</string>
+    <string name="undo">Undo</string>
+    <string name="delayed">Delayed</string>
+    <string name="menu_Logout">exit</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
+    <string name="view_days">view days</string>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>عربي</item>
+        <item>french</item>
+    </string-array>
+    <string name="start_hello">welcome</string>
+    <string name="start_nexttext">In the application of schools of physical education</string>
+    <string name="start_login">login</string>
+    <string name="start_school">About the school</string>
+</resources>

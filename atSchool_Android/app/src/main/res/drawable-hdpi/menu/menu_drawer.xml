@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/nav_Atschool"
+            android:icon="@drawable/ic_nav_main"
+            android:title="@string/app_name"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+
+            android:id="@+id/nav_TestUpload"
+            android:icon="@drawable/ic_nav_activities"
+            android:title="Test Upload"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+
+        <item
+            android:id="@+id/nav_Activities"
+            android:icon="@drawable/ic_nav_activities"
+            android:title="@string/menu_Activities"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Agenda"
+            android:icon="@drawable/ic_nav_agenda"
+            android:title="@string/menu_Agenda"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_SchoolManagement"
+            android:icon="@drawable/ic_nav_schoolmanagement"
+            android:title="@string/menu_SchoolManagement"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_SchoolFacilities"
+            android:icon="@drawable/ic_nav_facilities"
+            android:title="@string/menu_SchoolFacilities"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_News"
+            android:icon="@drawable/ic_nav_saved_outline"
+            android:title="@string/menu_News"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Communication"
+            android:icon="@drawable/ic_nav_saved_outline"
+            android:title="Communication"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Busses"
+            android:icon="@drawable/ic_nav_saved_outline"
+            android:title="Buses"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Register_students_attendance"
+            android:icon="@drawable/ic_nav_saved_outline"
+            android:title="@string/register_students_attendance"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+
+        <item
+            android:id="@+id/nav_BussesLocation"
+        android:icon="@drawable/ic_nav_saved_outline"
+        android:title="BussesLocation"
+        android:visible="false"
+        app:actionLayout="@layout/menu_counter" />
+
+        <item
+            android:id="@+id/nav_marefah"
+            android:icon="@drawable/ic_nav_saved_outline"
+            android:title="Marefah"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Call_Your_Sons"
+            android:icon="@drawable/ic_nav_saved_outline"
+            android:title="Communication"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/menu_Settings"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Complaint"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/menu_Settings"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Suggestion"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/menu_Settings"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_Maintenance"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/menu_Settings"
+            android:visible="false"
+            app:actionLayout="@layout/menu_counter" />
+    </group>
+
+    <item android:title="@string/Others">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Vision"
+                    android:checked="true"
+                    android:icon="@drawable/ic_nav_vision"
+                    android:title="@string/menu_Vision" />
+                <item
+                    android:id="@+id/nav_Mission"
+                    android:checked="true"
+                    android:icon="@drawable/ic_nav_mission"
+                    android:title="@string/menu_Mission" />
+                <item
+                    android:visible="false"
+                    android:id="@+id/nav_HomeLocation"
+                    android:checked="true"
+                    android:icon="@drawable/ic_nav_location"
+                    android:title="@string/menu_HomeLocation" />
+                <!--<item-->
+                    <!--android:checked="true"-->
+                    <!--android:icon="@drawable/ic_nav_location"-->
+                    <!--android:title="@string/menu_SchoolLocation" />-->
+                <item
+                    android:id="@+id/nav_Aboutus"
+                    android:checked="true"
+                    android:icon="@drawable/ic_nav_aboutus"
+                    android:title="@string/menu_Aboutus" />
+                <item
+                    android:id="@+id/nav_Logout"
+                    android:checked="true"
+                    android:icon="@drawable/ic_nav_logout"
+                    android:title="@string/menu_Logout" />
+            </group>
+        </menu>
+    </item>
+</menu>
